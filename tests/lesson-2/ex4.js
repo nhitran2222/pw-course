@@ -1,7 +1,7 @@
-const heigh = 158;
+const height = 158;
 
 console.log(
-    'Cân nặng lý tưởng:', heigh % 100 * 9 / 10, 'kg,',
-    'Cân nặng tối đa:', heigh % 100, 'kg,',
-    'Cân nặng tối thiểu:', heigh % 100 * 8 / 10, 'kg'
+    'Cân nặng lý tưởng:', height % 100 * 9 / 10, 'kg,',
+    'Cân nặng tối đa:', height % 100, 'kg,',
+    'Cân nặng tối thiểu:', height % 100 * 8 / 10, 'kg'
 );

@@ -1,8 +1,8 @@
-const number = 12;
+const number = 13;
 let name = "my number";
 let isEven = false;
 
-if (number % number === 0) {
+if (number % 2 === 0) {
     isEven = true;
 };
 
