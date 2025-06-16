@@ -16,8 +16,7 @@ II. GIT:
 ![alt text](image.png)
 
 2. git init: khởi tạo vùng làm việc của Git, đưa file vào vùng W
-
-![alt text](image-1.png)
+    ![alt text](image-1.png)
 3. git add . : thực hiện snapshot và đưa vào vùng S
 ![alt text](image-2.png)
 4. git commit -m"abc" : đưa file vào vùng R với msg "abc"
@@ -38,10 +37,11 @@ II. GIT:
 6. Git convention: {type}: {short_description}
 - chore: sửa nhỏ lẻ, chính tả, xóa file không dùng tới,...
 - feat: thêm tính năng mới, testcase mới
-- fix: sửa lỗi 1 test trước đó
+- fix: sửa lỗi 1 testcase trước đó
 
 7. Git flow
-![alt text](image-4.png)
+
+    ![alt text](image-4.png)
 
 III. Javascript.
 1. Variable (Biến)
