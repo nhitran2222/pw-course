@@ -69,5 +69,21 @@
     const arr = [1,2,3,4,5];
     const str = ["nhi", "nhan", "mai", "hoa", "huyen"];
 
-console.log(arr.length): lấy độ dài của mảng.
-console.log(arr[0]): lấy giá trị theo index.
+    console.log(arr.length): lấy độ dài của mảng.
+    console.log(arr[0]): lấy giá trị theo index.
+5. Logical operation.
+- `&&`: cả 2 vế của mệnh đề đều đúng.
+- `||`: một trong hai vế đúng.
+- `!`: đảo ngược lại giá trị của mệnh đề.
+
+6. Function.
+    __`function <nameFunction>(param1, param2) {   //code  }`;__
+
+    ```
+    function getMax(a,b) {
+        if(a>b) {
+            return a;  //khi chạy tới dòng return thì hàm sẽ ko dc chạy nữa, kết    thúc luon nhé
+        }
+        return b;
+    }
+    getMax(9,7);
