@@ -133,9 +133,6 @@ const result1 = "5" == 5; //true → convert từ string sang number rồi so s�
 3. `for...of`: dùng để lặp qua các phần tử ở trong mảng.
     ```
     let nums = [10, 20, 30, 40]
-    nums.forEach((value,index) => {
-        console.log(index, value);
-    })
 
     for (let value of nums) {
         console.log(value) //10, 20, 30, 40
