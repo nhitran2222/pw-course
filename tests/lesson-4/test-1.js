@@ -10,6 +10,7 @@ function launchShip(crew) {
 let message = launchShip(crew);
 console.log(message)
 
+
 //cách 2:
 function launchShip(crew) {
     let crewList = crew.join(", ");
@@ -42,11 +43,15 @@ function decryptCode(code) {
     for (let i = 0; i < code.length; i++) {
         let character = code[i];
 
-        if (character === character.toUpperCase()) {
-            convertStr += character.toLowerCase()
-        } else {
-            convertStr += character.toUpperCase();
-        }
+        // if (character === character.toUpperCase()) {
+        //     convertStr += character.toLowerCase()
+        // } else {
+        //     convertStr += character.toUpperCase();
+        // }
+
+        character === character.toUpperCase() && 
+            (convertStr += character.toLowerCase()) ||
+            (convertStr += character.toUpperCase())
     }
     console.log(convertStr);
 }

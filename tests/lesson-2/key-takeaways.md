@@ -16,9 +16,11 @@ II. GIT:
 ![alt text](image.png)
 
 2. git init: khởi tạo vùng làm việc của Git, đưa file vào vùng W
+
     ![alt text](image-1.png)
 3. git add . : thực hiện snapshot và đưa vào vùng S
-![alt text](image-2.png)
+
+    ![alt text](image-2.png)
 4. git commit -m"abc" : đưa file vào vùng R với msg "abc"
 ![alt text](image-3.png)
 5. Các câu lệnh thường dùng:
@@ -44,58 +46,55 @@ II. GIT:
     ![alt text](image-4.png)
 
 III. Javascript.
-1. Variable (Biến)
+1. `Variable (Biến)`
+    ```
+    var {tên biến} = {giá trị};
 
-var {tên biến} = {giá trị};
+    let {tên biến} = {giá trị};
+    vd: 
+    var f`irstName = "Nhi";
+    let Age = 25;
+    gán lại: firstName = "Nhi Tran"
 
-let {tên biến} = {giá trị};
+2. `Constant (Hằng số): khai báo giá trị không thể thay đổi.`
+    ```
+    const {tên biến} = {giá trị}
 
-vd: 
+--> **So sánh khác nhau giữa var, let, constant**
 
-var firstName = "Nhi";
-
-let Age = 25;
-
-gán lại: firstName = "Nhi Tran"
-
-
-2. Constant (Hằng số): khai báo giá trị không thể thay đổi.
-
-const {tên biến} = {giá trị}
-
---> So sánh khác nhau giữa var, let, constant
-| Loại  | Gán lại | Khai báo lại |
-|-------|---------|--------------|
-| var   | Có      | Có           |
-| let   | Có      | Không        |
-| const | Không   | Không        |
+    | Loại  | Gán lại | Khai báo lại |
+    |-------|---------|--------------|
+    | var   | Có      | Có           |
+    | let   | Có      | Không        |
+    | const | Không   | Không        |
 
 3. Data type:String, Number, Bigint, Boolean, Undefined, Null, Symbol, Object.
 - String: 'Nhi', "Tran"
 - Number: 25, 200
 - Boolean: True/false
 
-let name = 'I\'m Nhi';
-let isLearningPlaywright = true;
-let price = 200;
-
+    ```
+    let name = 'I\'m Nhi';
+    let isLearningPlaywright = true;
+    let price = 200;
 - Comparation operator: >, <, ==, ===, !=, !==, >=, <=
 - Unary operator: i++ = i=i+1, i-- = i=i-1
 - Arithmetic operator: +,-,*,/
 - Conditional:
+    ```
+    const temp = 30
 
-const temp = 30
+    if temp < 30 {
+        console.log('Trời mát')
+    };
 
-if temp < 30 {
-    console.log('Trời mát')
-};
-
-if temp >= 30 {
-    console.log('Trời nóng')
-};
+    if temp >= 30 {
+        console.log('Trời nóng')
+    };
 
 - Loops: for({khởi tạo};{đk dừng};{đk tăng})
 
-for (let i = 1; i<= 7; i = i+1) {
-    console.log(i);
-}
+    ```
+    for (let i = 1; i<= 7; i = i+1) {
+        console.log(i);
+    }

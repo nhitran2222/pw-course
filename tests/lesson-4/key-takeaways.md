@@ -1,4 +1,4 @@
-# LESSON 3: Javascripts
+# LESSON 4: Javascripts
 
 ## I. Phạm vi của biến var và let.
 
